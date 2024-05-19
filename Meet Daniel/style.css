@@ -1,0 +1,93 @@
+/* Font Libraries */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Jersey 15", sans-serif;
+    color: white;
+}
+
+.bgVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 22px;
+}
+
+
+/* Social Icons Styles */
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 35px 6px;
+}
+
+.socials a {
+    margin: 10px;
+}
+
+.socials i {
+    color: white;
+    font-size: 40px;
+    transition: all 0.2s ease-in-out;
+}
+.socials i:hover {
+    color: #ba0c14;
+}
+
+
+/* Info Styles */
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 50px;
+}
+.info>* {
+    margin: 0;
+    padding: 6px;
+}
+
+.name {
+    font-family: "Carter One", system-ui;
+    font-size: 76px;
+    user-select: none;
+}
+
+.major {
+    font-size: 57px;
+    color: #b1b1b1;
+    user-select: none;
+}
+
+.email {
+    font-size: 43px;
+    color: #b1b1b1;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.email:hover {
+    color: #ba0c14;
+    transform: translateX(-6px);
+}
+
+.gradDate {
+    font-family: "Carter One", system-ui;
+    font-size: 38px;
+    user-select: none;
+}
