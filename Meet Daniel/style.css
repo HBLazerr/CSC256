@@ -91,3 +91,45 @@ html, body {
     font-size: 38px;
     user-select: none;
 }
+
+
+
+/* style.css */
+
+body {
+    background-image: url('media/lightning.gif');
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 22px;
+}
+
+.logo {
+    width: 75px;
+    height: auto;
+    padding: 20px;
+}
+
+.label {
+    font-family: "Carter One", system-ui;
+    font-size: 76px;
+    user-select: none;
+    color: white;
+}
+
+.content a {
+    font-size: 43px;
+    color: black;
+    text-decoration: none;
+}
+
+.socialLink {
+    color: black;
+    text-decoration: none;
+    font-size: 43px;
+}
