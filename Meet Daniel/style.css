@@ -57,6 +57,7 @@ html, body {
     flex-direction: column;
     align-items: flex-end;
     gap: 50px;
+    margin: 0 10px;
 }
 .info>* {
     margin: 0;
@@ -75,13 +76,13 @@ html, body {
     user-select: none;
 }
 
-.email {
+.page {
     font-size: 43px;
     color: #b1b1b1;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 }
-.email:hover {
+.page:hover {
     color: #ba0c14;
     transform: translateX(-6px);
 }
@@ -94,10 +95,9 @@ html, body {
 
 
 
-/* style.css */
-
+/* Lightning.html Styles */
 body {
-    background-image: url('media/lightning.gif');
+    background-image: url('media/lightning-bg.gif');
     background-size: cover;
 }
 
@@ -122,6 +122,13 @@ body {
     color: white;
 }
 
+#project-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .content a {
     font-size: 43px;
     color: black;
@@ -132,4 +139,5 @@ body {
     color: black;
     text-decoration: none;
     font-size: 43px;
+    margin: 29px;
 }
