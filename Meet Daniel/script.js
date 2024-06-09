@@ -29,8 +29,12 @@ const projectLinksDiv = document.getElementById('project-links');
 
 selectedProjects.forEach(project => {
     const link = document.createElement('a');
+
     link.href = project.url;
     link.target = '_blank'; // opens link in a new tab
     link.innerHTML = `<p class="socialLink">${project.name}</p>`; // creates new element for link
+
     projectLinksDiv.appendChild(link);
 });
+
+
