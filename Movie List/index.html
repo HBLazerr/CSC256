@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Icon created by Freepik -->
+    <link rel="icon" href="media/popcorn.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Movie LSTER</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Movie LSTER</h1>
+      <h3>Please enter names of your favorite movies to add to the list.</h3>
+    </header>
+
+    <div class="inputContainer">
+      <input type="text" id="movieInput" placeholder="Enter movie name..."/>
+
+      <button id="addMovie" onclick="addMovie()">Add Movie</button>
+    </div>
+
+    <div class="showMovies">
+      <h2>Movie List</h2>
+
+      <ol id="movieList">
+        <li>MAZE RUNNER: THE DEATH CURE</li>
+        <!-- JS will populate movie list here -->
+      </ol>
+      
+      <button id="clearList" onclick="clearList()">Clear</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-family: "Playfair Display", serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    /*BG by BGJar.com - zhangshine */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1798%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1799%26quot%3b)'%3e%3c/rect%3e%3cpath d='M1464 560L0 560 L0 326.36Q18.48 272.84%2c 72 291.32Q155.22 254.54%2c 192 337.77Q242.72 268.49%2c 312 319.21Q368.05 303.26%2c 384 359.31Q431.15 286.46%2c 504 333.61Q562.97 320.58%2c 576 379.54Q602.19 333.74%2c 648 359.93Q695.38 287.31%2c 768 334.69Q846.19 292.88%2c 888 371.07Q895.92 306.99%2c 960 314.9Q989.56 272.46%2c 1032 302.03Q1088.94 286.97%2c 1104 343.91Q1183.16 303.08%2c 1224 382.24Q1238.7 276.94%2c 1344 291.64Q1416.05 243.69%2c 1464 315.74z' fill='rgba(73%2c 79%2c 90%2c 1)'%3e%3c/path%3e%3cpath d='M1464 560L0 560 L0 405.13Q65.53 350.66%2c 120 416.19Q172.15 396.34%2c 192 448.48Q216.2 352.68%2c 312 376.88Q342.63 335.51%2c 384 366.15Q468.26 330.41%2c 504 414.67Q532.97 371.64%2c 576 400.61Q660.33 364.94%2c 696 449.26Q698.68 379.94%2c 768 382.61Q798.58 341.19%2c 840 371.77Q921.25 333.02%2c 960 414.27Q981.84 364.11%2c 1032 385.94Q1073.99 355.93%2c 1104 397.92Q1188.76 362.69%2c 1224 447.45Q1264.81 368.25%2c 1344 409.06Q1417.9 362.96%2c 1464 436.86z' fill='rgba(94%2c 102%2c 115%2c 1)'%3e%3c/path%3e%3cpath d='M1464 560L0 560 L0 503.63Q15.22 446.85%2c 72 462.07Q140.13 410.2%2c 192 478.34Q257.03 423.37%2c 312 488.4Q322.68 427.08%2c 384 437.76Q449.96 383.72%2c 504 449.67Q584.85 410.52%2c 624 491.37Q652.8 400.17%2c 744 428.97Q828.46 393.44%2c 864 477.9Q907.15 401.05%2c 984 444.2Q1049.7 389.9%2c 1104 455.61Q1192.27 423.88%2c 1224 512.15Q1267.08 435.23%2c 1344 478.3Q1415.31 429.61%2c 1464 500.92z' fill='rgba(151%2c 158%2c 167%2c 1)'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 533.9Q43.95 505.85%2c 72 549.79Q83.28 489.07%2c 144 500.35Q214.32 450.68%2c 264 521Q321.57 506.57%2c 336 564.14Q360.64 516.78%2c 408 541.42Q444.59 458%2c 528 494.59Q572.86 467.44%2c 600 512.3Q651.8 492.1%2c 672 543.89Q685.84 485.73%2c 744 499.57Q809.82 445.38%2c 864 511.2Q922.8 498%2c 936 556.81Q962.88 511.68%2c 1008 538.56Q1025.27 483.83%2c 1080 501.1Q1164.26 465.37%2c 1200 549.63Q1229.46 507.09%2c 1272 536.55Q1347.08 491.63%2c 1392 566.71Q1442.33 497.04%2c 1512 547.37z' fill='rgba(214%2c 214%2c 214%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1798'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1799'%3e%3cstop stop-color='rgba(71%2c 14%2c 14%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(158%2c 3%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    margin: 65px;
+}
+h1 {
+    font-family: "Limelight", sans-serif;
+    font-size: 80px;
+}
+h3 {
+    color: rgb(200, 200, 200);
+}
+
+h2 {
+    font-family: "Limelight", sans-serif;
+    font-size: 40px;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.showMovies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+input {
+    width: 300px;
+    height: 90%;
+    border-radius: 100px;
+    border: none;
+    margin: 10px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+input:focus {
+    outline: 2px solid;
+}
+
+ol {
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.414);
+    border-radius: 10px;
+    padding: 0 50px;
+    box-shadow: 0px 0px 15px 4px rgba(28, 28, 28, 0.9);
+
+    /* makes sure list box does disappear */
+    min-width: 600px;
+    min-height: 192px;
+}
+
+li {
+    margin: 12px;
+    color: rgb(200, 200, 200);
+    font-size: 30px;
+}
+
+
+/* Button style from getcssscan.com */
+button {
+    background-color: #fbc2c2;
+    border-radius: 100px;
+    box-shadow: rgba(187, 44, 44, 0.2) 0 -25px 18px -14px inset, rgba(187, 44, 44, 0.15) 0 1px 2px, rgba(187, 44, 44, 0.15) 0 2px 4px, rgba(187, 44, 44, 0.15) 0 4px 8px, rgba(187, 44, 44, 0.15) 0 8px 16px, rgba(187, 44, 44, 0.15) 0 16px 32px;
+    color: red;
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+button:hover {
+    box-shadow: rgba(187, 44, 44, 0.35) 0 -25px 18px -14px inset, rgba(187, 44, 44, 0.25) 0 1px 2px, rgba(187, 44, 44, 0.25) 0 2px 4px, rgba(187, 44, 44, 0.25) 0 4px 8px, rgba(187, 44, 44, 0.25) 0 8px 16px, rgba(187, 44, 44, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
