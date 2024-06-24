@@ -70,7 +70,7 @@ input:focus {
     outline: 2px solid;
 }
 
-ol {
+ul {
     margin: 20px;
     background-color: rgba(0, 0, 0, 0.414);
     border-radius: 10px;
