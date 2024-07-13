@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Checkers Board</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Checkers Board</h1>
+    </header>
+
+    <main>
+      <div id="cbContainer">
+        <!-- JS will populate board here -->
+      </div>
+      <span id="selectedSquare" style="display: none"></span>
+    </main>
+
+    <footer>
+      <a href="crossword.html"><button class="btn">View Crossword</button></a>
+    </footer>
+
+    <script src="checkers.js"></script>
+    <script>
+      // create board and populate
+      var checkersBoard = document.getElementById("cbContainer");
+      createCheckersBoard(checkersBoard);
+    </script>
+  </body>
+</html>
