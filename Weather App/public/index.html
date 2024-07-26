@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>WeatherDAN</title>
+  </head>
+  <body onload="getWeather('Tempe')">
+    <header>
+      <h1 class="title">WeatherDAN</h1>
+    </header>
+
+    <div id="weatherContainer">
+      <input type="text" id="city" placeholder="Enter City" />
+      <button onclick="getWeather()">Search</button>
+
+      <img id="weatherIcon" alt="weather icon" />
+
+      <div id="tempDiv"></div>
+      <div id="weatherInfo"></div>
+      <div id="forecastDiv"></div>
+    </div>
+
+    <div class="cloud"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
